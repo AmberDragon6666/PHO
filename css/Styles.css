@@ -1,0 +1,116 @@
+body {
+  font-family: courier;
+  margin:0;
+  padding:0;
+}
+
+h1{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+
+.page_top{
+  padding:0px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  flex-wrap: nowrap;
+}
+
+.page_title_text{
+  flex-wrap: nowrap;
+  margin:10px;
+  flex: 1;
+}
+
+
+.top_left_menu{
+  vertical-align:top;
+  padding:10px;
+  flex: 0 0;
+}
+
+
+.top_left_menu_button{
+  border: 0px;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+}
+
+.mod_message{
+  background-color: rgb(236, 230, 177);
+  padding:10px 20px;
+}
+
+.header_button_container{
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.header_button_working{
+  background-color: lightgrey;
+  border-color: white;
+  border-radius: 0;
+  text-align: middle;
+  border-style:solid;
+  margin:0px;
+  flex: 1 1;
+  min-width: 50px;
+  max-width: 200px;
+  white-space:nowrap;
+  overflow: hidden;
+  border-width: 1px;
+}
+
+.header_button_broken{
+  background-color: darkgrey;
+  border-color: lightgrey;
+  border-radius: 0;
+  text-align: middle;
+  border-style:solid;
+  margin:0px;
+  flex: 1 1;
+  min-width: 50px;
+  max-width: 200px;
+  white-space:nowrap;
+  overflow: hidden;
+  border-width: 1px;
+}
+
+
+.credits{
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+
+.news{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  flex-wrap: nowrap;
+}
+
+.news_feed_item{
+  margin:20px;
+  padding:20px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 4px;
+}
+
+.news_feed_item_header{
+
+}
+
+.news_feed_item_date{
+  text-align: right;
+}
