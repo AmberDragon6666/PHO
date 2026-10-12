@@ -69,6 +69,17 @@ h1{
   white-space:nowrap;
   overflow: hidden;
   border-width: 1px;
+  transition:40ms;
+}
+
+.header_button_working:hover{
+  background-color: rgb(200, 200, 200);
+  transition:40ms;
+}
+
+.header_button_working:active{
+  background-color: rgb(190, 190, 190);
+  transition:40ms;
 }
 
 .header_button_broken{
@@ -84,6 +95,19 @@ h1{
   white-space:nowrap;
   overflow: hidden;
   border-width: 1px;
+}
+
+
+.header_button_anchor{
+  margin:0px;
+  flex: 1 1;
+  min-width: 50px;
+  max-width: 200px;
+  white-space:nowrap;
+  overflow: hidden;
+  border-width: 1px;
+  padding:0px;
+  display: flex;
 }
 
 
@@ -108,9 +132,13 @@ h1{
 }
 
 .news_feed_item_header{
-
+  
 }
 
 .news_feed_item_date{
   text-align: right;
+}
+
+.wiki_right_box{
+  
 }
