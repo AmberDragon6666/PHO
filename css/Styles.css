@@ -141,13 +141,19 @@ h1{
 
 .wiki_right_box{
   float: right;
-  background-color: lightgrey;
+  background-color: rgb(235, 235, 235);
   border-width: 1px;
   border-style: solid;
   margin: 0px 0px 10px 10px;
   width: 280px;
   padding:20px;
   border-color: grey;
+}
+
+.wiki_right_box_title{
+  padding:20px;
+  margin:0px 0px 10px 0px;
+  background-color: rgb(236, 230, 177);
 }
 
 .wiki_right_box_image{
